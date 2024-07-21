@@ -1,1 +1,93 @@
-
+@import url(https://fonts.googleapis.com/css2?family=Lexend&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+* {
+  outline: none;
+  text-decoration: none;
+  font-family: Poppins;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #061417;
+  color: #fff;
+  font-family: Poppins;
+}
+p {
+  font-size: 14px;
+}
+nav {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  background-color: rgba(6, 20, 23, 0.6);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  font-family: Lexend;
+  left: 0;
+  z-index: 999;
+  right: 0;
+  background-color: transparent;
+}
+main {
+  padding: 37px 10px 30px 10px;
+}
+.gradient-text {
+    background: linear-gradient(to right, #FCFAE9, #DFE9FE);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+main p {
+  color: #808E91;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 1.8em;
+}
+.form-wrapper {
+  display: flex;
+  margin: 25px auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #0A1C20;
+  padding: 25px 30px 50px 30px;
+  border-radius: 10px;
+}
+.form-wrapper .input-field {
+  padding: 13px 8px;
+  border-radius: 10px;
+  border: 3px solid #34AFCB;
+  margin: 10px 0;
+}
+.new-link-sec {
+  padding: 20px 10px;
+  border: 1px solid #4C5A5D;
+  border-radius: 10px;
+  margin: 25px 0 0 0;
+  display: none ;
+}
+.submit-btn {
+  padding: 13px 8px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.generated-link {
+  color: #34AFCB;
+  font-weight: bold;
+  font-family: Rubik;
+  font-size: 14px;
+}
+.copy-btn {
+  border: 1px solid #4C5A5D;
+  background-color: transparent;
+  color: #F2F3F8;
+  float: right;
+  padding: 3px 6px;
+  float: right;
+  justify-content: right;
+  border-radius: 5px;
+  margin-top: 10px;
+}
